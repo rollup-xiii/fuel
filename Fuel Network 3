@@ -1,0 +1,15 @@
+fuelup toolchain install beta-3
+
+fuelup default beta-3
+
+fuelup --version
+
+fuelup default beta-3
+
+mkdir fuel-project
+
+cd fuel-project
+
+forc new counter-contract
+
+nano counter-contract/src/main.sw
